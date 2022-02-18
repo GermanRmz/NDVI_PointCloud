@@ -4,7 +4,7 @@
 
 ## Description 
 
-Aplication of NDVI for a point cloud visualization.
+The work presented here has been submitted to the International Conference on Unmanned Aircraft Systems under the title "Point cloud generation of vegetation indices using an UAV" authored by Andrés Montes de Oca, Germán Ramírez, and Gerardo Flores.
 
 
 ## Hardware needed for run the program
@@ -105,12 +105,9 @@ In the package paste the code called s_ndp2.py and make it executable with the n
 ```sh
    source devel/setup.bash
 ```
-For zed-m
+
 ```sh
-   roslaunch zed_wrapper zedm.launch
-```
-```sh
-   roslaunch rtabmap_ros rtabmap.launch rtabmap_args:="--delete_db_on_start" rgb_topic:=/zedm/zed_node/rgb/image_rect_color depth_topic:=/zedm/zed_node/depth/depth_registered camera_info_topic:=/zedm/zed_node/depth/camera_info odom_topic:=/zedm/zed_node/odom imu_topic:=/zedm/zed_node/imu/data visual_odometry:=false frame_id:=base_link approx_sync:=false rgbd_sync:=true approx_rgbd_sync:=false rtabmapviz:=false
+   roslaunch zed_rtabmap_example zed_rtabmap.launch
 ```
 After create the pointcloud pause the program and save it as .ply in the catkin_ws directory
 
@@ -140,4 +137,13 @@ The s_ndp2.py will publish a ros node of the point cloud that we can visualize o
 ```sh
    rviz
 ```
-Add a PointCloud2
+Add a PointCloud2 and select the topic pointcloud3 and you will visualize the NDVI pointcloud
+
+
+## Contact
+
+- andresmr@cio.mx
+- carlosrp@cio.mx 
+- gflores@cio.mx
+
+ICUAS
