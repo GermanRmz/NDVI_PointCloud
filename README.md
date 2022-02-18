@@ -1,2 +1,3 @@
-# UAV_NDVI_zed-m
+# UAV_NDVI_PointCloud
+
 Aplication of NDVI for a point cloud visualization
