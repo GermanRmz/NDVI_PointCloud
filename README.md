@@ -4,7 +4,7 @@
 
 ## Description 
 
-The work presented here has been submitted to the International Conference on Unmanned Aircraft Systems under the title "Point cloud generation of vegetation indices using an UAV" authored by Andrés Montes de Oca, Germán Ramírez, and Gerardo Flores.
+The work presented here has been submitted to the International Conference on Unmanned Aircraft Systems under the title "Point cloud generation of vegetation indices using an UAV" authored by Andrés Montes de Oca, Germán Ramírez, and Gerardo Flores. ICUAS
 
 
 ## Hardware needed for run the program
