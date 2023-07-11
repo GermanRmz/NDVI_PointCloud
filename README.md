@@ -142,8 +142,8 @@ Add a PointCloud2 and select the topic pointcloud3 and you will visualize the ND
 
 ## Contact
 
-- andresmr@cio.mx
 - carlosrp@cio.mx 
+- andresmr@cio.mx
 - gflores@cio.mx
 
 ICUAS
