@@ -30,9 +30,13 @@ Comand to get the cuda version:
    nvcc --version
 ```
 
-2. Install the zed sdk for your cuda version/jetpack
+2. Install the zed sdk for your cuda version/jetpack 
 
 https://www.stereolabs.com/developers/release/
+
+and install rtabmap for ROS
+
+https://github.com/introlab/rtabmap_ros
 
 
 3. Create a catkin workspace
