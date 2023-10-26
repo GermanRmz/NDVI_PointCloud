@@ -42,8 +42,11 @@ def zed_ndvi():
         
 
         #---------ndvi calculation---------------
-
+        #for gndvi activate this
         nvi=(g-r)/(g+r+.0000000000001)
+        #for vdvi activate this
+        #nvi=(2*g-r-b)/(2g+pr+b+.0000000000001)
+        
 
         if nvi >= 0:
             g=int(nvi*255)
